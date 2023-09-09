@@ -28,5 +28,5 @@ async def bye(ctx):
 async def on_member_join(member):
     channel=client.get_channel(1091292044137349130)
     await channel.send("Hello")
-client.run('MTE0OTk3MzE2MjQxOTgzMDc4NQ.G10Hh1.yadDMwIof6IuniGqzIo9LHR_CiieMAVOAASehc')
+client.run('BOT_TOKEN')
 
